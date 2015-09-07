@@ -10,6 +10,5 @@
 (enable-console-print!)
 (println "Hello ClojureScript QuickStart!")
 
-;; ADDED
 (defn foo [a b]
-  (+ a b))
+  (* a b)) ;; CHANGED

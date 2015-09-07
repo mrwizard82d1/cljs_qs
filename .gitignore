@@ -1,6 +1,10 @@
 # Ignore out directory
 /out/
 
+# Ignore Node.js module directory and generated output
+/node_modules/
+main.js
+
 # Ignore Clojure build files
 pom.xml
 pom.xml.asc
